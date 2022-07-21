@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 .navbar-brand{
@@ -20,6 +21,23 @@
         font-size: 3rem;
         font-weight: bold;
     }
+}
+
+.breadcrumb{
+    padding: 1rem;
+    cursor: pointer;
+    background-color: rgb(228, 225, 225);
+    margin-top: 1.5rem;
+    border-radius: 0.3rem;
+}
+
+.breadcrumb-item a{
+    text-decoration: none;
+    color: rgb(131, 126, 126);
+}
+
+.breadcrumb-item a:hover{
+    color: #000;
 }
 
 .box-content{
@@ -55,3 +73,59 @@
     max-width: 300px;
 }
 
+.footer{
+    background-color: #ffe605;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    padding: 2rem 1.5rem;
+    flex-wrap: wrap;
+}
+
+.foot__container{
+    min-width: 350px;
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foot__container p{
+    line-height: 1rem;
+}
+
+.foot__container-item a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.foot__menu-item{
+    font-weight: bold;
+}
+
+.foot__menu-item a{
+    text-decoration: none;
+}
+
+.foot__text{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.container__form{
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(228, 225, 225);
+    border-radius: 0.5rem;
+    padding: 2rem 2.5rem;
+}
+
+.form__box{
+    padding: 1rem;
+}
+
+
+th span{
+    display: flex;
+    flex-wrap: nowrap;
+}
