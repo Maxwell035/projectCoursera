@@ -1,0 +1,57 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand{
+    padding: 0 2rem;
+    font-size: 2rem;
+}
+
+.jumbotron{
+    padding: 4rem 2rem;
+    width: 100%;
+    background-color: #ffe605;
+    margin-top: 50px;
+
+    span{
+        font-size: 3rem;
+        font-weight: bold;
+    }
+}
+
+.box-content{
+    display: flex;
+    flex: 1 150px;
+    padding: 2rem 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.text__box-1{
+    flex: 1 150px;
+    margin: 1rem;
+    max-width: 400px;
+}
+
+.text__box{
+    max-width: 90%;
+}
+
+.box-card{
+    display: flex;
+    margin: 0 2rem;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    max-width: 300px;
+}
+
