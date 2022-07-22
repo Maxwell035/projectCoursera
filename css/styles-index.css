@@ -12510,7 +12510,7 @@ fieldset:disabled .btn {
 .breadcrumb {
   padding: 1rem;
   cursor: pointer;
-  background-color: #e4e1e1;
+  background-color: #d1e7dd;
   margin-top: 1.5rem;
   border-radius: 0.3rem;
 }
@@ -12549,6 +12549,10 @@ fieldset:disabled .btn {
 
 .text__box {
   max-width: 90%;
+}
+
+.text {
+  padding: 0.5rem 0;
 }
 
 .box-card {
